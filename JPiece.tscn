@@ -17,13 +17,13 @@
 [node name="Node2D" type="Node2D"]
 
 [node name="0" type="TileMap" parent="."]
+visible = false
 tile_set = SubResource( 1 )
 cell_size = Vector2( 16, 16 )
 format = 1
 tile_data = PoolIntArray( 0, 0, 0, 65536, 0, 0, 65537, 0, 0, 65538, 0, 0 )
 
 [node name="1" type="TileMap" parent="."]
-visible = false
 tile_set = SubResource( 1 )
 cell_size = Vector2( 16, 16 )
 format = 1
